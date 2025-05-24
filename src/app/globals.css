@@ -76,6 +76,19 @@ body {
     --sidebar-border: 240 3.7% 15.9%;
     --sidebar-ring: 217.2 91.2% 59.8%;
   }
+
+  @keyframes float {
+    0%, 100% { transform: translateY(0px) rotate(0deg); }
+    25% { transform: translateY(-8px) rotate(-2deg); }
+    50% { transform: translateY(-15px) rotate(0deg); }
+    75% { transform: translateY(-8px) rotate(2deg); }
+  }
+  @keyframes float-alt {
+    0%, 100% { transform: translateY(0px) rotate(0deg); }
+    25% { transform: translateY(4px) rotate(1deg); }
+    50% { transform: translateY(-8px) rotate(0deg); }
+    75% { transform: translateY(4px) rotate(-1deg); }
+  }
 }
 
 @layer base {
