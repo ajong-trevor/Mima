@@ -32,3 +32,12 @@ export interface NavItem {
   label: string;
   icon?: LucideIcon;
 }
+
+export interface Tutorial {
+  id: string;
+  title: string;
+  description: string;
+  videoUrl: string; // Placeholder, could be YouTube link
+  thumbnailUrl: string;
+  dataAiHint?: string;
+}

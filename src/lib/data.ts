@@ -1,6 +1,6 @@
 
-import type { Pastry, Category, Review, NavItem } from '@/types';
-import { Home, ShoppingBag, Bot, Phone, CakeSlice, CookieIcon, Blend, Croissant } from 'lucide-react'; // Using Blend for MeatPies, Croissant for Doughnuts
+import type { Pastry, Category, Review, NavItem, Tutorial } from '@/types';
+import { Home, ShoppingBag, Bot, Phone, CakeSlice, CookieIcon, Blend, Croissant, Youtube } from 'lucide-react';
 
 export const categories: Category[] = [
   { id: 'cakes', name: 'Cakes', icon: CakeSlice },
@@ -130,6 +130,42 @@ export const reviews: Review[] = [
 export const navItems: NavItem[] = [
   { href: '/', label: 'Home', icon: Home },
   { href: '/pastries', label: 'Pastries', icon: ShoppingBag },
+  { href: '/baking-tutorials', label: 'Tutorials', icon: Youtube },
   { href: '/ai-helper', label: 'AI Helper', icon: Bot },
   { href: '/contact', label: 'Contact', icon: Phone },
+];
+
+export const tutorials: Tutorial[] = [
+  {
+    id: '1',
+    title: 'Mastering the Perfect Chocolate Cake',
+    description: 'Learn step-by-step how to bake a rich and moist chocolate cake that will impress everyone.',
+    videoUrl: '#', // Placeholder for actual video link
+    thumbnailUrl: 'https://placehold.co/600x400.png',
+    dataAiHint: 'baking chocolate cake',
+  },
+  {
+    id: '2',
+    title: 'Baking Flaky Meat Pies from Scratch',
+    description: 'Discover the secrets to a perfect savory meat pie with a golden, flaky crust.',
+    videoUrl: '#',
+    thumbnailUrl: 'https://placehold.co/600x400.png',
+    dataAiHint: 'baking meat pie',
+  },
+  {
+    id: '3',
+    title: 'Easy Glazed Doughnuts Tutorial',
+    description: 'A simple guide to making soft, fluffy glazed doughnuts at home. Fun for the whole family!',
+    videoUrl: '#',
+    thumbnailUrl: 'https://placehold.co/600x400.png',
+    dataAiHint: 'making doughnuts',
+  },
+  {
+    id: '4',
+    title: 'Chewy Oatmeal Raisin Cookies Recipe',
+    description: 'Bake the best oatmeal raisin cookies with this easy-to-follow recipe. Perfect texture guaranteed!',
+    videoUrl: '#',
+    thumbnailUrl: 'https://placehold.co/600x400.png',
+    dataAiHint: 'baking cookies',
+  },
 ];
