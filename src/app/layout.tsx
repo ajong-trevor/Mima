@@ -19,6 +19,12 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "Mima's Delights - Delicious Homemade Pastries",
   description: 'Discover a variety of delicious homemade pastries at Mima\'s Delights. From cakes and cookies to meat pies and doughnuts, all baked with love.',
+  // Add new icons metadata for favicon
+  icons: {
+    icon: '/favicon.ico', // Standard favicon
+    apple: '/apple-touch-icon.png', // For Apple devices
+    shortcut: '/favicon.ico', // For older browsers
+  },
 };
 
 export default function RootLayout({
