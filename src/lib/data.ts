@@ -128,9 +128,9 @@ export const reviews: Review[] = [
 ];
 
 export const navItems: NavItem[] = [
-  { href: '#home', label: 'Home', icon: Home },
-  { href: '#pastries', label: 'Pastries', icon: ShoppingBag },
-  { href: '#reviews', label: 'Reviews', icon: MessageSquare },
-  { href: '#ai-support', label: 'AI Helper', icon: Bot },
-  { href: '#contact', label: 'Contact', icon: Phone },
+  { href: '/', label: 'Home', icon: Home },
+  { href: '/pastries', label: 'Pastries', icon: ShoppingBag },
+  { href: '/reviews', label: 'Reviews', icon: MessageSquare },
+  { href: '/ai-helper', label: 'AI Helper', icon: Bot },
+  { href: '/contact', label: 'Contact', icon: Phone },
 ];

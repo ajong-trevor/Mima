@@ -18,10 +18,10 @@ export function HeroSection() {
         </p>
         <div className="mt-10 flex flex-col sm:flex-row items-center justify-center gap-4">
           <Button size="lg" asChild className="bg-primary hover:bg-primary/90 text-primary-foreground">
-            <Link href="#pastries">Explore Our Pastries</Link>
+            <Link href="/pastries">Explore Our Pastries</Link>
           </Button>
           <Button size="lg" variant="outline" asChild className="border-primary text-primary hover:bg-accent/50">
-            <Link href="#contact">Get In Touch</Link>
+            <Link href="/contact">Get In Touch</Link>
           </Button>
         </div>
       </div>
