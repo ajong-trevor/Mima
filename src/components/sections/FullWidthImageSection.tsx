@@ -4,7 +4,7 @@
 export function FullWidthImageSection() {
   return (
     <section
-      className="h-[60vh] w-full bg-cover bg-center bg-fixed"
+      className="h-[80vh] w-full bg-cover bg-center bg-fixed"
       style={{
         backgroundImage: "url('https://placehold.co/1920x1080.png')",
       }}
