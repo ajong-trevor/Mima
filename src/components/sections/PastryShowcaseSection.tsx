@@ -5,7 +5,6 @@ import { useState, useMemo } from 'react';
 import type { Pastry } from '@/types';
 import { pastries, categories } from '@/lib/data';
 import { PastryCard } from '@/components/shared/PastryCard';
-import { Button } from '@/components/ui/button';
 import { Tabs, TabsList, TabsTrigger, TabsContent } from "@/components/ui/tabs"
 
 
@@ -17,7 +16,7 @@ export function PastryShowcaseSection() {
       return pastries;
     }
     return pastries.filter((pastry) => pastry.category === selectedCategory);
-  }, [selectedCategory]);
+  }, [selectedCategory, pastries]);
 
   return (
     <section id="pastries" className="py-16 sm:py-24 bg-background">
