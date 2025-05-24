@@ -10,7 +10,7 @@ export function HeroSection() {
          {/* Decorative background image or pattern can go here */}
       </div>
 
-      {/* Animating Pastries - Increased Sizes and Added Meat Pie */}
+      {/* Animating Pastries - Adjusted */}
       <div className="absolute top-[10%] left-[5%] sm:left-[8%] z-0 animate-float-pastry-1 opacity-70" style={{ animationDelay: '0s' }}>
         {/* Cake Slice */}
         <svg width="100" height="100" viewBox="0 0 24 24">
@@ -43,27 +43,16 @@ export function HeroSection() {
       </div>
 
       <div className="absolute bottom-[8%] right-[5%] sm:right-[10%] z-0 animate-float-pastry-4 opacity-60" style={{ animationDelay: '1.8s' }}>
-          {/* Doughnut */}
-          <svg width="65" height="65" viewBox="0 0 24 24">
-              <circle cx="12" cy="12" r="8" stroke="#A16207" fill="#FEF3C7" strokeWidth="1.5"/>
-              <circle cx="12" cy="12" r="3" fill="hsl(var(--background))"/>
-              <path d="M15 9 A3 1.5 0 0 0 9 9" stroke="#F472B6" strokeWidth="1.2" fill="none" strokeLinecap="round"/>
-              <path d="M15.5 10.5 A3 1.5 0 0 0 8.5 10.5" stroke="#F472B6" strokeWidth="1.2" fill="none" strokeLinecap="round" transform="rotate(25 12 12)"/>
-              <path d="M14.5 11.5 A3 1.5 0 0 0 9.5 11.5" stroke="#F472B6" strokeWidth="1.2" fill="none" strokeLinecap="round" transform="rotate(-25 12 12)"/>
+          {/* Meat Pie (formerly Doughnut) */}
+          <svg width="85" height="85" viewBox="0 0 24 24">
+            <ellipse cx="12" cy="13" rx="9" ry="5" fill="#FBBF24" stroke="#B45309" strokeWidth="1"/>
+            <path d="M4 13 Q12 10.5 20 13" fill="none" stroke="#B45309" strokeWidth="0.7"/>
+            <path d="M5 12.5 Q12 14.5 19 12.5" fill="none" stroke="#B45309" strokeWidth="0.7"/>
+            <path d="M7 13 C 7 11, 10 10.5, 12 10.5 S 17 11, 17 13" fill="none" stroke="#D97706" strokeWidth="0.8"/>
+            <circle cx="10" cy="12.5" r="0.4" fill="#B45309" />
+            <circle cx="12" cy="12" r="0.4" fill="#B45309" />
+            <circle cx="14" cy="12.5" r="0.4" fill="#B45309" />
           </svg>
-      </div>
-
-      <div className="absolute bottom-[20%] left-[15%] sm:left-[20%] z-0 animate-float-pastry-1 opacity-65" style={{ animationDelay: '2.2s' }}>
-        {/* Meat Pie */}
-        <svg width="85" height="85" viewBox="0 0 24 24">
-          <ellipse cx="12" cy="13" rx="9" ry="5" fill="#FBBF24" stroke="#B45309" strokeWidth="1"/>
-          <path d="M4 13 Q12 10.5 20 13" fill="none" stroke="#B45309" strokeWidth="0.7"/>
-          <path d="M5 12.5 Q12 14.5 19 12.5" fill="none" stroke="#B45309" strokeWidth="0.7"/>
-          <path d="M7 13 C 7 11, 10 10.5, 12 10.5 S 17 11, 17 13" fill="none" stroke="#D97706" strokeWidth="0.8"/>
-          <circle cx="10" cy="12.5" r="0.4" fill="#B45309" />
-          <circle cx="12" cy="12" r="0.4" fill="#B45309" />
-          <circle cx="14" cy="12.5" r="0.4" fill="#B45309" />
-        </svg>
       </div>
       
       <div className="container mx-auto px-4 sm:px-6 lg:px-8 text-center relative z-10">
