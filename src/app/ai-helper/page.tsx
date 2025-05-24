@@ -1,6 +1,7 @@
 
 import type { Metadata } from 'next';
 import { AICustomerSupportSection } from '@/components/sections/AICustomerSupportSection';
+import { ContactSection } from '@/components/sections/ContactSection';
 
 export const metadata: Metadata = {
   title: "AI Pastry Helper - Mima's Delights",
@@ -11,6 +12,7 @@ export default function AIHelperPage() {
   return (
     <>
       <AICustomerSupportSection />
+      <ContactSection />
     </>
   );
 }

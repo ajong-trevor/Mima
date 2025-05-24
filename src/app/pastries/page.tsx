@@ -1,6 +1,7 @@
 
 import type { Metadata } from 'next';
 import { PastryShowcaseSection } from '@/components/sections/PastryShowcaseSection';
+import { ContactSection } from '@/components/sections/ContactSection';
 
 export const metadata: Metadata = {
   title: "Our Delicious Pastries - Mima's Delights",
@@ -11,6 +12,7 @@ export default function PastriesPage() {
   return (
     <>
       <PastryShowcaseSection />
+      <ContactSection />
     </>
   );
 }
