@@ -1,6 +1,6 @@
 
 import type { Pastry, Category, Review, NavItem } from '@/types';
-import { Home, ShoppingBag, MessageSquare, Bot, Phone, CakeSlice, CookieIcon, Blend, Croissant } from 'lucide-react'; // Using Blend for MeatPies, Croissant for Doughnuts
+import { Home, ShoppingBag, Bot, Phone, CakeSlice, CookieIcon, Blend, Croissant } from 'lucide-react'; // Using Blend for MeatPies, Croissant for Doughnuts
 
 export const categories: Category[] = [
   { id: 'cakes', name: 'Cakes', icon: CakeSlice },
@@ -130,7 +130,6 @@ export const reviews: Review[] = [
 export const navItems: NavItem[] = [
   { href: '/', label: 'Home', icon: Home },
   { href: '/pastries', label: 'Pastries', icon: ShoppingBag },
-  { href: '/reviews', label: 'Reviews', icon: MessageSquare },
   { href: '/ai-helper', label: 'AI Helper', icon: Bot },
   { href: '/contact', label: 'Contact', icon: Phone },
 ];
