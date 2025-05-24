@@ -11,10 +11,10 @@ export function Footer() {
   }, []);
 
   return (
-    <footer className="border-t bg-muted/40 py-8 text-center text-sm text-muted-foreground">
+    <footer className="border-t bg-primary py-8 text-center text-sm text-primary-foreground">
       <div className="container mx-auto">
         <p>&copy; {currentYear ?? new Date().getFullYear()} Mima&apos;s Delights. All rights reserved.</p>
-        <p className="mt-1">Made with <span className="text-red-500">♥</span> for delicious pastries.</p>
+        <p className="mt-1">Made with <span className="text-destructive">♥</span> for delicious pastries.</p>
       </div>
     </footer>
   );
