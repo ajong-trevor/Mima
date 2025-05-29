@@ -29,10 +29,10 @@ export function PastryCard({ pastry }: PastryCardProps) {
       </CardContent>
       <CardFooter className="flex justify-between items-center p-6 pt-0">
         <p className="text-lg font-bold text-primary">{pastry.price}</p>
-        <Button variant="default" size="sm" className="bg-accent text-accent-foreground hover:bg-accent/80">
+        {/* <Button variant="default" size="sm" className="bg-accent text-accent-foreground hover:bg-accent/80">
           <ShoppingCart className="mr-2 h-4 w-4" />
           Order
-        </Button>
+        </Button> */}
       </CardFooter>
     </Card>
   );

@@ -64,21 +64,21 @@ export function ContactSection() {
               <MapPin className="h-6 w-6 text-accent mt-1 flex-shrink-0" />
               <div>
                 <h4 className="font-medium text-foreground">Our Bakery</h4>
-                <p className="text-foreground/80">123 Pastry Lane, Bakeville, CA 90210</p>
+                <p className="text-foreground/80">Molyko Buea, Cameroon</p>
               </div>
             </div>
             <div className="flex items-start space-x-3">
               <Mail className="h-6 w-6 text-accent mt-1 flex-shrink-0" />
               <div>
                 <h4 className="font-medium text-foreground">Email Us</h4>
-                <p className="text-foreground/80">hello@mimasdelights.com</p>
+                <p className="text-foreground/80">mimakitchen@gmail.com</p>
               </div>
             </div>
             <div className="flex items-start space-x-3">
               <Phone className="h-6 w-6 text-accent mt-1 flex-shrink-0" />
               <div>
                 <h4 className="font-medium text-foreground">Call Us</h4>
-                <p className="text-foreground/80">(555) 123-4567</p>
+                <p className="text-foreground/80">(237) 6 20 48 78 27</p>
               </div>
             </div>
           </div>
